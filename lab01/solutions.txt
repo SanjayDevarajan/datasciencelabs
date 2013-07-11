@@ -47,3 +47,36 @@ for (i in 1:100) {
     }
     print(sprintf("%d is %s", i, odd_or_even))
 }
+
+
+# -------------------------------------
+# Lab 01 Exercise 1.5
+#   See lab_01_05.R file
+# -------------------------------------
+
+
+# -------------------------------------
+# Lab 01 Exercise 1.6
+# -------------------------------------
+> source("lab_01_05.R")
+[1] "2 is prime"
+[1] "3 is prime"
+[1] "5 is prime"
+[1] "7 is prime"
+[1] "11 is prime"
+[1] "13 is prime"
+[1] "17 is prime"
+[1] "19 is prime"
+[1] "23 is prime"
+[1] "29 is prime"
+[1] "31 is prime"
+[1] "37 is prime"
+[1] "41 is prime"
+[1] "43 is prime"
+[1] "47 is prime"
+
+
+# -------------------------------------
+# Lab 01 Exercise 1.7
+# -------------------------------------
+R CMD BATCH lab_01_05.R
