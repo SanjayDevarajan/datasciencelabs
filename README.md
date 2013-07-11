@@ -1,4 +1,4 @@
 datasciencelabs
 ===============
 
-Labs for the Introduction to Data Science Class
+Labs for the Introduction to Data Science Class.
