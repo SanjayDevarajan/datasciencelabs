@@ -1,0 +1,33 @@
+
+R version 3.0.1 (2013-05-16) -- "Good Sport"
+Copyright (C) 2013 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin12.2.1 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> source("lab_04_src.R")
+> 
+> vi = vector_iterator(c(1,2,3,4,5))
+> vi()
+Vim: Warning: Output is not to a terminal
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H<ders/nj/8q3p25cd2c99fszq5v1y275h0000gq/T//Rtmpxssscc/ca1e484f55a.R" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;1H[1m[7m<484f55a.Rline=0  col=0-1  totlin=1  bytval=0x0,1,REXX                       All[1;1H[?12l[?25h[?25l[m[24;1HType  :quit<Enter>  to exit Vim[24;32H[K[1;1H[?12l[?25h[24;1H[?1l>[?1049lVim: Error reading input, exiting...
+
+Vim: Finished.
+[24;1HError in .External2(C_edit, name, file, title, editor) : 
+  problem with running editor vi
+Calls: vi -> edit.default
+Execution halted
